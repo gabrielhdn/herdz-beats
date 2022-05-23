@@ -1,0 +1,48 @@
+.main-song-div {
+  width: 400px;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.song-p-div {
+  max-width: 70%;
+  max-height: 54px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.track-name {
+  color: rgb(243, 243, 243);
+  letter-spacing: .2px;
+  padding: 2px 5px;
+  max-width: 100%;
+  word-wrap: break-word;
+  font-weight: 500;
+}
+
+.audio-label-div {
+  display: flex;
+  justify-content: space;
+  align-items: center;
+  gap: 8px;
+}
+
+.favorite-icon {
+  color: rgb(202, 202, 202);
+}
+
+.favorite-input {
+  display: none;
+}
+
+.favorite-input:checked ~ label .favorite-icon {
+  color: #58d6b4;
+}
+
+.favorite-input:hover ~ label .favorite-icon {
+  color: #7deed0;
+}

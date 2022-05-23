@@ -1,0 +1,18 @@
+.page-favorites {
+  background-color: #7045B5;
+  min-height: 100vh;
+}
+
+.favorites-content {
+  margin: 70px auto;
+  height: 60vh;
+  width: 26em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
+
+.favorites-loading {
+  margin-top: 150px;
+}

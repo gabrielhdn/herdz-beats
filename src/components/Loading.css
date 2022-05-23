@@ -1,0 +1,22 @@
+.main-loading-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(243, 243, 243);
+}
+
+.loading-icon {
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotateY(360deg);
+  }
+}

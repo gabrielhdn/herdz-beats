@@ -1,0 +1,73 @@
+.page-profile {
+  background-color: #7045B5;
+  min-height: 100vh;
+}
+
+.page-profile-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 80px;
+  height: 82vh;
+  width: 100%;
+}
+
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(180deg, rgb(106, 43, 179) 0%, rgb(67, 19, 134) 100%);
+  width: 20em;
+  min-height: 26em;
+  padding: 30px 25px;
+  border-radius: 10px;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+.user-info {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.user-info label {
+  font-size: 1.05em;
+  font-weight: 500;
+  color: #60e4c1;
+}
+
+.user-info label p {
+  font-size: 0.9em;
+  font-weight: 400;
+  color: #eeeeee;
+}
+
+.edit-link {
+  align-self: center;
+  color: rgb(64, 18, 128);
+  padding: 4px 7px;
+  text-decoration: none;
+  background-color: #eeeeee;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.edit-link:hover {
+  background-color: rgb(245, 73, 208);
+  color: #f3f3f3;
+}
+
+.profile-loading {
+  margin-top: 150px;
+}

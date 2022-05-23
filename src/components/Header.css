@@ -1,0 +1,81 @@
+.header {
+  background-color: #512294;
+  height: 18vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px;
+}
+
+.header-title-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 80px;
+}
+
+.header-user {
+  width: 80px;
+  color: rgb(243, 243, 243);
+}
+
+.header-title {
+  position: absolute;
+  color: rgb(243, 243, 243);
+  font-size: 2em;
+  left: 25px;
+  bottom: -6px;
+}
+
+.header-title-icon {
+  position: absolute;
+  left: 117px;
+  bottom: -1.17px;
+  color: #0CCA98;
+}
+
+.header-beats {
+  position: absolute;
+  color: #0CCA98;
+  font-size: 2.4em;
+  font-weight: 500;
+  left: 24.2px;
+  bottom: 0px;
+  top: -16px;
+}
+
+.navigation {
+  align-self: flex-end;
+  display: flex;
+  gap: 30px;
+}
+
+.link {
+  border: 2px solid #0CCA98;
+  border-bottom: none;
+  color: rgb(243, 243, 243);
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 8px 24px;
+}
+
+.link:hover {
+  background-color: #0CCA98;
+  color: #512294;
+}
+
+.header-user {
+  display: flex;
+  justify-content: center;
+}
+
+.header-user-icon {
+  animation: header-spin 2s linear infinite;
+}
+
+@keyframes header-spin {
+  to {
+    transform: rotateY(360deg);
+  }
+}

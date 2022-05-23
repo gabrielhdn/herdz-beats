@@ -1,0 +1,131 @@
+.main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(160deg, rgba(76,22,154,1) 0%, rgba(139,60,231,1) 100%);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 100px;
+  background-color: rgb(243, 243, 243);
+  width: 300px;
+  height: 370px;
+  padding: 30px 25px;
+  border-radius: 10px;
+}
+
+.title-div {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  position: relative;
+  box-sizing: content-box;
+}
+
+.title-icon {
+  position: absolute;
+  left: 141px;
+  top: 10.5px;
+  color: #0CCA98;
+}
+
+.title {
+  color: #512294;
+  font-size: 2.4em;
+  position: absolute;
+  left: 33px;
+}
+
+.beats {
+  color: #0CCA98;
+  font-size: 2.8rem;
+  font-weight: 500;
+  position: absolute;
+  left: 32.2px;
+  top: 30px;
+}
+
+.form {
+  display: flex;
+  max-width: 80%;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.user-input {
+  border: none;
+  border-radius: 6px;
+  background-color: rgb(243, 243, 243);
+  color: #381768;
+  font-size: 0.9em;
+  outline: none;
+  padding: 6px 0;
+}
+
+.user-input::placeholder {
+  font-size: 1.1em;
+  color: #979797;
+}
+
+.user-input:focus ~ .underline::after {
+  transform: scaleX(1);
+}
+
+.underline::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  top: 29px;
+  background-color: rgb(197, 197, 197);
+}
+
+.underline::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  top: 29px;
+  background: linear-gradient(45deg, #2FBCBC, #5e2f9e);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: all 0.3s ease;
+}
+
+.login-button {
+  /* background: radial-gradient(circle, rgba(125,54,209,1) 0%, rgba(80,34,145,1) 100%); */
+  background: linear-gradient(90deg, rgba(119,51,199,1) 0%, rgba(85,38,152,1) 100%);
+  padding: 5px 0;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: rgb(243, 243, 243);
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.login-button:hover {
+  background: #0CCA98;
+  color: #512294;
+}
+
+.login-button:disabled {
+  background: rgb(197, 197, 197);
+  color: gray;
+}

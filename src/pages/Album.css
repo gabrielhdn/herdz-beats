@@ -1,0 +1,80 @@
+.page-album {
+  background-color: #7045B5;
+  padding-bottom: 70px;
+  height: 100vh;
+}
+
+.album-content {
+  width: 80%;
+  height: 60vh;
+  margin: 70px auto;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.loading-element-div {
+  width: 350px;
+  height: 50px;
+}
+
+.album-info {
+  width: 300px;
+  height: 350px;
+  background: linear-gradient(180deg, rgb(106, 43, 179) 0%, rgb(67, 19, 134) 100%);
+  border-radius: 5px;
+  box-shadow: 8px 8px 10px rgb(106, 43, 179);
+  color: rgb(243, 243, 243);
+  font-size: 1.1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px 5px 7px 5px;
+  transition: all .5s ease;
+}
+
+.album-info p {
+  text-align: center;
+  max-width: 90%;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+.album-artist-name {
+  border-bottom: 1px solid #46f1c4;
+}
+
+.album-artwork-div {
+  height: 120px;
+  width: 120px;
+}
+
+.album-artwork-div img {
+  width: 100%;
+  height: 100%;
+}
+
+.album-p-div {
+  max-height: 98px;
+  width: 90%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.album-p-div p {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #46f1c4;
+}
+
+.album-songs-list {
+  max-height: 60vh;
+  overflow: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
