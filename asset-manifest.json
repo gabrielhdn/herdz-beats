@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/herdz-beats/static/css/main.9d5de847.css",
+    "main.js": "/herdz-beats/static/js/main.b0de20b7.js",
+    "static/media/error404.png": "/herdz-beats/static/media/error404.6b9deec89a97286e86ff.png",
+    "index.html": "/herdz-beats/index.html",
+    "main.9d5de847.css.map": "/herdz-beats/static/css/main.9d5de847.css.map",
+    "main.b0de20b7.js.map": "/herdz-beats/static/js/main.b0de20b7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d5de847.css",
+    "static/js/main.b0de20b7.js"
+  ]
+}
