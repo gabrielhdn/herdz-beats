@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { getUser } from '../services/userAPI';
-import Loading from './Loading';
 import { SiMusicbrainz } from 'react-icons/si';
 import './Header.css';
 

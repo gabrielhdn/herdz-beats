@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background: linear-gradient(160deg, rgba(76,22,154,1) 0%, rgba(139,60,231,1) 100%);
 }
 
@@ -14,8 +14,8 @@
   justify-content: space-around;
   gap: 100px;
   background-color: rgb(243, 243, 243);
-  width: 300px;
-  height: 370px;
+  width: 18.7em;
+  height: 23em;
   padding: 30px 25px;
   border-radius: 10px;
 }
@@ -128,4 +128,23 @@
 .login-button:disabled {
   background: rgb(197, 197, 197);
   color: gray;
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    width: 270px;
+    height: 340px;
+  }
+
+  .title-icon {
+    left: 131px;
+  }
+  
+  .title {
+    left: 24px;
+  }
+  
+  .beats {
+    left: 23.2px;
+  }
 }

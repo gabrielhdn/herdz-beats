@@ -1,6 +1,7 @@
 .page-favorites {
   background-color: #7045B5;
   min-height: 100vh;
+  width: 100%;
 }
 
 .favorites-content {
@@ -15,4 +16,16 @@
 
 .favorites-loading {
   margin-top: 150px;
+}
+
+@media screen and (max-width: 500px) {
+  .favorites-main {
+    display: flex;
+    justify-content: center;
+  }
+
+  .favorites-content {
+    height: auto;
+    margin: 40px auto;
+  }
 }

@@ -46,3 +46,14 @@
 .favorite-input:hover ~ label .favorite-icon {
   color: #7deed0;
 }
+
+
+@media screen and (max-width: 500px) {
+  .main-song-div {
+    width: 300px;
+  }
+
+  .audio-component {
+    width: 260px;
+  }
+}
