@@ -117,3 +117,9 @@ textarea {
     height: 23em;
   }
 }
+
+@media screen and (max-width: 340px) {
+  .form-edit {
+    width: 90%;
+  }
+}
