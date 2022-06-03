@@ -77,6 +77,11 @@ textarea {
   background-color: rgb(245, 73, 208);
 }
 
+.save-button:disabled {
+  background: rgb(197, 197, 197);
+  color: gray;
+}
+
 .profile-edit-loading {
   margin-top: 150px;
 }
@@ -115,6 +120,12 @@ textarea {
 
   .user-data-edit {
     height: 23em;
+  }
+}
+
+@media screen and (max-height: 630px) {
+  .form-edit {
+    margin-bottom: 25px;
   }
 }
 

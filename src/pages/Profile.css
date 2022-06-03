@@ -86,6 +86,12 @@
   }
 }
 
+@media screen and (max-height: 575px) {
+  .user-profile {
+    margin-bottom: 25px;
+  }
+}
+
 @media screen and (max-width: 340px) {
   .page-profile-content {
     padding-top: 40px;
