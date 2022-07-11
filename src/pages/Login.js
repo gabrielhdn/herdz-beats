@@ -53,6 +53,7 @@ class Login extends React.Component {
                   name="userInput"
                   onChange={ this.handleChange }
                   value={ userInput }
+                  autoComplete="off"
                 />
                 <div className="underline"></div>
               </div>
