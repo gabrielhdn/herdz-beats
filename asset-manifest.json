@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/herdz-beats/static/css/main.e379e976.css",
-    "main.js": "/herdz-beats/static/js/main.38674451.js",
+    "main.css": "/herdz-beats/static/css/main.ba23e9a4.css",
+    "main.js": "/herdz-beats/static/js/main.2801576e.js",
     "static/media/error404.png": "/herdz-beats/static/media/error404.6b9deec89a97286e86ff.png",
     "index.html": "/herdz-beats/index.html",
-    "main.e379e976.css.map": "/herdz-beats/static/css/main.e379e976.css.map",
-    "main.38674451.js.map": "/herdz-beats/static/js/main.38674451.js.map"
+    "main.ba23e9a4.css.map": "/herdz-beats/static/css/main.ba23e9a4.css.map",
+    "main.2801576e.js.map": "/herdz-beats/static/js/main.2801576e.js.map"
   },
   "entrypoints": [
-    "static/css/main.e379e976.css",
-    "static/js/main.38674451.js"
+    "static/css/main.ba23e9a4.css",
+    "static/js/main.2801576e.js"
   ]
 }
