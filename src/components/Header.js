@@ -28,6 +28,7 @@ class Header extends React.Component {
 
   render() {
     const { hasAnswer, userInfo } = this.state;
+    const { pathname } = this.props;
     const { name } = userInfo;
     return (
       <header className="header">
@@ -37,9 +38,24 @@ class Header extends React.Component {
           <span className="header-beats">beats</span>
         </Link>
         <nav className="navigation">
-          <Link to="/search" className="link">search</Link>
-          <Link to="/favorites" className="link">favorites</Link>
-          <Link to="/profile" className="link">profile</Link>
+          <Link
+            to="/search"
+            className={pathname.includes('search') ? 'link cl' : 'link'}
+          >
+            search
+          </Link>
+          <Link
+            to="/favorites"
+            className={pathname.includes('favorites') ? 'link cl' : 'link'}
+          >
+            favorites
+          </Link>
+          <Link
+            to="/profile"
+            className={pathname.includes('profile') ? 'link cl' : 'link'}
+          >
+            profile
+          </Link>
         </nav>
         <Link to="/profile" className="header-user">
           {hasAnswer ? <p>{name}</p> : <SiMusicbrainz size={35} className="header-user-icon"/>}
@@ -50,9 +66,11 @@ class Header extends React.Component {
 }
 
 Header.propTypes = {
-  history: PropTypes.shape({
-    push: PropTypes.func.isRequired,
-  }).isRequired,
+  pathname: PropTypes.string,
 };
+
+Header.defaultProps = {
+  pathname: '',
+}
 
 export default Header;

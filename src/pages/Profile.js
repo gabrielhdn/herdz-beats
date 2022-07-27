@@ -23,11 +23,12 @@ class Profile extends React.Component {
   }
 
   render() {
+    const { history: { location: { pathname } } } = this.props;
     const { loading, userData } = this.state;
     const { description, email, image, name } = userData;
     return (
       <div className="page-profile">
-        <Header />
+        <Header pathname={pathname}/>
         <div className="page-profile-content">
           <div className="profile-card">
           {!loading

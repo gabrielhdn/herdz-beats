@@ -33,9 +33,10 @@ class Search extends React.Component {
 
   render() {
     const { userInput, loading, artistData, currentArtist } = this.state;
+    const { history: { location: { pathname } } } = this.props;
     return (
       <div className="main-search-div">
-        <Header />
+        <Header pathname={pathname}/>
         {!loading
         ? (
           <div className="search-input-container">

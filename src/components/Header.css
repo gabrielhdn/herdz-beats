@@ -67,6 +67,11 @@
   color: #512294;
 }
 
+.cl {
+  background-color: #0CCA98;
+  color: #512294;
+}
+
 .header-user {
   display: flex;
   justify-content: center;

@@ -29,10 +29,11 @@ class Favorites extends React.Component {
   }
 
   render() {
+    const { history: { location: { pathname } } } = this.props;
     const { loading, favSongs } = this.state;
     return (
       <div className="page-favorites">
-        <Header />
+        <Header pathname={pathname}/>
         <div className="favorites-main">
         <div className="favorites-content">
         {!loading
